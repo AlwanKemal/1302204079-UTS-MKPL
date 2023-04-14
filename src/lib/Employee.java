@@ -12,7 +12,7 @@ public class refactEmployee {
 	private String idNumber;
 	private String address;
 
-	private LocalDate timeJoined;
+	private LocalDate timeJoined;		/**  Membuat atribut baru agar dapat merepresentasikan waktu dengan lebih baik dan dapat mempermudah manipulasi data waktu dalam program.  **/
 	private boolean isForeigner;
 	private boolean isMale;
 

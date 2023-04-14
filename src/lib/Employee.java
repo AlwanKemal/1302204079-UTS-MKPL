@@ -55,7 +55,7 @@ public class Employee {
 	public void setMonthlySalary(int grade) {	
 	switch (grade) {
 		case 1:
-			monthlySalary = 3000000;
+			monthlySalary = 3000000;	/**  Penggunaan if-else diubah menjadi switch case lalu untuk nilai dari monthlySalary nya di letakkan dibawah, agar ketika atribut isForeigner True, maka nilai monthlySalary nya akan dikalikan dengan 1,5 dan juga tidak berulang   **/
 			break;
 		case 2:
 			monthlySalary = 5000000;
